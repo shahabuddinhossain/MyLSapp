@@ -12,5 +12,4 @@
     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quia corporis esse nesciunt necessitatibus quis. Quisquam inventore similique esse. Et architecto nemo doloribus. Modi ex quaerat cum consequuntur voluptates! Numquam.
     </p>
     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quia corporis esse nesciunt necessitatibus quis. Quisquam inventore similique esse. Et architecto nemo doloribus. Modi ex quaerat cum consequuntur voluptates! Numquam.
-    </p>
-@endsection
+    </p>git 
