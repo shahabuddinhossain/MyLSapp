@@ -15,7 +15,12 @@ class PostsController extends Controller
     public function index()
     {
         //After adding use app\Post model we will be able to use post models all methode
-        $posts = Post::all();
+        //$posts = Post::orderBy('title','asc')->take(1)->get();
+        //$posts = Post::orderBy('title','asc')->get();
+        //$posts = Post::all();
+        //$posts = Post::where('title','POST THREE')->get();
+        
+        $posts = Post::orderBy('title','asc')->paginate(1);
         return view('posts.index')->with('posts', $posts);
     }
 
@@ -48,7 +53,8 @@ class PostsController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Post::find($id);
+        return view('posts.show')->with('post',$post);
     }
 
     /**
