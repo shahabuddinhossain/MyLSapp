@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content') 
+    {{dd($post)}};
     <a href="/posts" class="btn btn-default">Go Back</a>
     <h1>{{$post->title}}</h1>
     <div>
